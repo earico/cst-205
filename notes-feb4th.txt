@@ -1,0 +1,20 @@
+Creating a new file and writing to it:
+
+---- "with open" keeps the file opened while going through the
+     block of code and will close the file once it reaches
+     the end of the block of code.
+
+---- the 'w' within the open function tells the code that you are
+     writing to the program instead of reading
+
+---- the "as my_file" gives the code an object to mess with and
+     put data into. the write function after the dot operator
+     puts the text into the file object you just created
+
+---- "my_file" can be called anything and works the same way
+     as for loops when writing: for 'val' in vals (basically
+     declaring the variable name for the file)
+
+with open('tmp.txt', 'w') as my_file:
+	my_file.write('hello, world')
+

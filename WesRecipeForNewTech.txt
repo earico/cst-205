@@ -1,0 +1,8 @@
+Wes' Recipe for Learning New S/W Tech
+
+1. Find a working example
+2. Get it wokring on your system (unmodified)
+3. Modify it one step at a time
+4. Testing with each change
+5. Slowly modify toward what you want
+

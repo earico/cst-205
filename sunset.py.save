@@ -1,0 +1,11 @@
+from PIL import Image
+im = Image.open("eiffeltower.jpg")
+
+def negative_image(pixel):
+	return tuple(map(lambda a : a[0] - int(a[0]*0.3), pixel))
+
+negative_list = map( negative_image, im.getdata() )
+
+im.putdata
+
+im.show()
