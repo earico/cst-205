@@ -1,0 +1,18 @@
+.body-div{
+	background-color: black;
+	font-size: 18px;
+}
+
+.header{
+	background-color: white;
+	color: black;
+}
+
+.upload-file{
+	height: 100px;
+    width: 500px;
+    margin: -20px -50px;
+    top:50%;
+    left: 35%;
+    position: relative;
+}
