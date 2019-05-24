@@ -1,0 +1,300 @@
+.header-jumbotron-text-center {
+	font-weight: bold;
+	border: 4px solid #653239;
+	background-color: #653239;
+	outline-style: solid;
+	outline-color: #653239;
+	outline-width: 10px;
+	color: white;
+}
+
+#image-filter-header{
+	padding: 20px 10px;
+	font-size: 72px;
+	background-color: #653239;
+	border: 4px solid #653239;
+	outline-style: solid;
+	outline-color: #653239;
+	outline-width: 10px;
+	color: white;
+}
+
+h1 {
+	color: #653239;
+}
+
+p {
+	font-size: 36px;
+	color: #653239;
+	font-weight: bold;
+}
+
+body {
+	background-color: #E2D4BA;
+	font-size: 18px;
+	text-align: center;
+	color: black;
+}
+
+form {
+	padding: 30px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	background-color: #AF7A6D;
+	border: none;
+	font-weight: bold;	
+	border-radius: 25px;
+	padding: 10px 25px;
+	color: white;
+	font-size: 30px;
+}
+
+select {
+	/* changing menu style */
+	outline: none;
+	background-color: #CCC7B9;
+	border: none;
+	color: #653239;
+	border-radius: 20px;
+	font-size: 16px;
+	padding: 6px 10px;	
+	width: 165px;
+}
+
+#submit {
+	/* Changing default submit button to better looking version */
+	background-color: #AF7A6D;
+	color: white;
+	border: none;
+	font-weight: bold;
+	border-radius: 22px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+input[type=submit] {
+	cursor: pointer;
+	display: none;
+	position: relative;
+	transition: 0.5s;
+}
+
+input[type=file] {
+	display: none;	
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px;
+	font-size: 24px;
+}
+
+#info-text {
+	color: #653239;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+#upload-file {
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+	border-radius: 8px;
+	border: 1px solid #ccc;
+	display: inline-block;
+	padding: 14px 70px;
+	background-color: #AF7A6D;
+	cursor: pointer;
+}
+	
+#Cool {
+	border: none;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #AF7A6D;
+	color: white;
+	width: 150px;
+	height: 130px;
+	position: absolute;
+	bottom: 70px;
+	left: 1%;
+	box-shadow: 10px 10px 5px grey;	
+}
+
+#Cool:hover {
+	background: url('Placeholder/eiffel-cool.jpg');
+	background-size: 150px 130px;
+}
+
+#Warm {
+	border: none;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #AF7A6D;
+	color: white;
+	width: 150px;
+	height: 130px;
+	position: absolute;
+	bottom: 70px;
+	left: 11%;
+	box-shadow: 10px 10px 5px grey;	
+}
+
+#Warm:hover {
+	background: url('Placeholder/eiffeltower.jpg');
+	background-size: 150px 130px;
+}
+
+#Negative {
+	border: none;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #AF7A6D;
+	color: white;
+	width: 150px;
+	height: 130px;
+	position: absolute;
+	bottom: 70px;
+	left: 21%;
+	box-shadow: 10px 10px 5px grey;	
+}
+
+#Negative:hover {
+	background: url('Placeholder/eiffel-neg.jpg');
+	background-size: 150px 130px;
+}
+
+#Sepia {
+	border: none;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #AF7A6D;
+	color: white;
+	width: 150px;
+	height: 130px;
+	position: absolute;
+	bottom: 70px;
+	left: 31%;
+	box-shadow: 10px 10px 5px grey;	
+}
+
+#Sepia:hover {
+	background: url('Placeholder/eiffel-sepia.jpg');
+	background-size: 150px 130px;	
+}
+
+#Grayscale {
+	border: none;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #AF7A6D;
+	color: white;
+	width: 150px;
+	height: 130px;
+	position: absolute;
+	bottom: 70px;
+	left: 41%;
+	box-shadow: 10px 10px 5px grey;	
+}
+
+#Grayscale:hover {
+	background: url('Placeholder/eiffel-gray.jpg');
+	background-size: 150px 130px;
+}
+
+#Red {
+	border: none;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #AF7A6D;
+	color: white;
+	width: 150px;
+	height: 130px;
+	position: absolute;
+	bottom: 70px;
+	left: 51%;
+	box-shadow: 10px 10px 5px grey;	
+}
+
+#Red:hover {
+	background: url('Placeholder/eiffel-red.jpg');
+	background-size: 150px 130px;
+}
+
+#Green {
+	border: none;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #AF7A6D;
+	color: white;
+	width: 150px;
+	height: 130px;
+	position: absolute;
+	bottom: 70px;
+	left: 61%;
+	box-shadow: 10px 10px 5px grey;	
+}
+
+#Green:hover {
+	background: url('Placeholder/eiffel-green1.jpg');
+	background-size: 150px 130px;
+}
+
+#Lighten {
+	border: none;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #AF7A6D;
+	color: white;
+	width: 150px;
+	height: 130px;
+	position: absolute;
+	bottom: 70px;
+	left: 71%;
+	box-shadow: 10px 10px 5px grey;	
+}
+
+#Lighten:hover {
+	background: url('Placeholder/eiffel-lighten.jpg');
+	background-size: 150px 130px;
+}
+
+#Darken {
+	border: none;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #AF7A6D;
+	color: white;
+	width: 150px;
+	height: 130px;
+	position: absolute;
+	bottom: 70px;
+	left: 81%;
+	box-shadow: 10px 10px 5px grey;	
+}
+
+#Darken:hover {
+	background: url('Placeholder/eiffel-darken.jpg');
+	background-size: 150px 130px;
+}
+
+#Thumbnail {
+	border: none;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #AF7A6D;
+	color: white;
+	width: 150px;
+	height: 130px;
+	position: absolute;
+	bottom: 70px;
+	left: 91%;
+	box-shadow: 10px 10px 5px grey;	
+}
+
+#Thumbnail:hover {
+	background: url('Placeholder/eiffel-thumb.jpg');
+	background-size: 150px 130px;
+}
